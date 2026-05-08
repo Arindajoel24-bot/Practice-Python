@@ -2,9 +2,6 @@ def main():
 
     my_list = [1, 3, 5, 7, 9, 11]
     print(binary_search(my_list, 7))
-    print(binary_search(my_list, 1))   # first element
-    print(binary_search(my_list, 11))  # last element
-    print(binary_search(my_list, 4))   # number not in list 
 
 def binary_search(ordered_list, number):
     low = 0
