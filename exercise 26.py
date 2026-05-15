@@ -50,4 +50,5 @@ def check_winner(game):
         elif game[0][2] == 2 and game[1][1] == 2 and game[2][0] == 2:
             return "Player2 wins"
         return "Drew"
-main()
+if __name__ == "__main__":
+    main()
