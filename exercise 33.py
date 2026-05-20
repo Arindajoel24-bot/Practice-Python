@@ -4,7 +4,7 @@ try:
         "Joshua": "18/05/2011",
         "Jordan": "24/04/2004",
     }
-
+    
     user = input("Enter the name: ")
 
     print(f"{user}'s birthday is {birthday[user]}")
