@@ -19,5 +19,5 @@ birthdays[name] = date
 print(birthdays)
 
 with open("34.json", "w") as f:
-    names = json.dump(birthdays, f, indent=2)
+    names = json.dump(birthdays, f, indent=4)
 
