@@ -1,6 +1,6 @@
 user = int(input("Enter size: "))
 
-horizontal = "---" * user
+horizontal = " ---" * user
 row = "|  " * user + "|"
 
 for i in range(user):

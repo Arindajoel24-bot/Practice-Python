@@ -9,4 +9,5 @@ def prime_number(n):
             return "Not a prime number."
     else:
         return "Number is a prime number."
-main()
+if __name__ == "__main__":
+ main()
